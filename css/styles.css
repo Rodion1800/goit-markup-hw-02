@@ -25,21 +25,34 @@ a {
   line-height: 1.16;
 }
 .web {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .navigation:hover,
 .navigation:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .navigation {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contacts:hover,
 .contacts:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+  font-style: normal;
+}
+
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 .hero-title {
   text-align: center;
@@ -58,13 +71,25 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 .benefits-list .title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .team {
   background-color: #f4f4fd;
@@ -73,12 +98,21 @@ a {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team .name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio .section-title {
